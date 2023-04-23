@@ -29,7 +29,8 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i]==null){
                 count++;
-
+                System.out.printf("индекс null %d", i);
+                System.out.println();
             }
         }
         return count;
